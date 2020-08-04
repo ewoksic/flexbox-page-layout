@@ -1,5 +1,5 @@
 .banner{
-    background-image: url("../assets/images/hero--large.jpg");
+    background-image: url("./assets/images/hero--large.jpg");
     width: 100%;
     background-size: cover;
     &__text{
