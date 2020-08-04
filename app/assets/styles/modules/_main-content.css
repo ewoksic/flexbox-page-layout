@@ -1,0 +1,13 @@
+.main-content{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 5% 0;
+    @mixin atSmall{
+        flex-direction: column;
+    }
+    &__main1{
+        flex: 1;
+        padding: 3%;
+        text-align: center;
+    }
+}

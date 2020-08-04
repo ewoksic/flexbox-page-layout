@@ -1,3 +1,31 @@
 .banner{
-    background: url("");
+    background-image: url("../../../assets/images/hero--large.jpg");
+    width: 100%;
+    background-size: cover;
+    &__text{
+        display: flex;
+        padding: 15% 0;
+
+    }
+    &__items{
+        color: #fff;
+        margin: auto;
+        text-align: center;
+        width: 50%;
+        @mixin atSmall{
+            width: 100%;
+        }
+    }
+    h2{
+        font-size: 3em;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        @mixin atSmall{
+            font-size: 1.5em;
+        }
+    }
+    p{
+        font-size: 18px;
+    }
+
 }

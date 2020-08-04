@@ -1,0 +1,50 @@
+.top-bar{
+    background-color: #000;
+    display: flex;
+    width: 100%;
+    height: auto;
+    @mixin atSmall {
+        flex-direction: column;
+        text-align: center;
+    }
+    &__logo{
+        color: #fff;
+        flex: 1;
+        font-size: 40px;
+        padding: 18px;
+        text-transform: uppercase;
+        @mixin atSmall {
+            padding: 18px 0 0;
+        }
+    }
+
+    &__menu{
+        flex: 3;
+      
+    }
+    &__list{
+        display: flex;
+        list-style: none;
+        margin-top: 30px;
+        flex-flow: row wrap;
+        @mixin atSmall {
+            flex-direction: column;
+            margin-top: 0;
+            padding: 0;
+
+        }
+    }
+    li{
+        flex: 1;
+        text-align: center;
+        @mixin atSmall{
+            padding: 5px;
+        }
+       
+    }
+    a{
+        color: #fff;
+        font-size: 20px;
+        text-decoration: none;
+    }
+}

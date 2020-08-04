@@ -3,6 +3,7 @@
 @import 'base/_mixins';
 @import 'base/_global';
 @import 'modules/_banner.css';
-@import 'modules/_contact.css';
-@import 'modules/_main-content.css';
 @import 'modules/_top-bar.css';
+@import 'modules/_main-content.css';
+@import 'modules/_contact.css';
+
